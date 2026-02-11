@@ -2,16 +2,17 @@ import logo from './logo.svg';
 import './App.css';
 
 import React from 'react';
-import myHeader from 'components/header.js';
-import myContent from 'components/content.js';
-import myFooter from 'footer.js';
+
+import MyHeader from './components/Header.js';
+import MyContent from './components/Content.js';
+import MyFooter from './components/Footer.js';
 
 const theApp = () =>{
   return (
     <div className="App">
-      <myHeader />
-      <myContent />
-      <myFooter />
+      <MyHeader />
+      <MyContent />
+      <MyFooter />
     </div>
   )
 }

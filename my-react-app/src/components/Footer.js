@@ -1,6 +1,7 @@
 import React from 'react';
 
-function myFooter() {
+
+const MyFooter = () => {
   return (
     <footer>
       <p>It is always important to be kind.</p>
@@ -8,4 +9,4 @@ function myFooter() {
   );
 }
 
-export default myFooter;
+export default MyFooter;

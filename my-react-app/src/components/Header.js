@@ -1,6 +1,7 @@
 import React from 'react';
 
-function myHeader() {
+
+const MyHeader = () => {
   return (
     <header>
       <h1>Cinderella</h1>
@@ -8,4 +9,4 @@ function myHeader() {
   );
 }
 
-export default myHeader;
+export default MyHeader;
